@@ -1,0 +1,49 @@
+[
+    {
+        "id": 1,
+        "delivery2": "X"
+    },
+    {
+        "id": 2,
+        "delivery2": "X"
+    },
+    {
+        "id": 3,
+        "delivery2": "X"
+    },
+    {
+        "id": 4,
+        "delivery1": "7",
+        "delivery2": "2"
+    },
+    {
+        "id": 5,
+        "delivery1": "8",
+        "delivery2": "/"
+    },
+    {
+        "id": 6,
+        "delivery1": "F",
+        "delivery2": "9"
+    },
+    {
+        "id": 7,
+        "delivery2": "X"
+    },
+    {
+        "id": 8,
+        "delivery1": "7",
+        "delivery2": "/"
+    },
+    {
+        "id": 9,
+        "delivery1": "9",
+        "delivery2": "-"
+    },
+    {
+        "id": 10,
+        "delivery1": "X",
+        "delivery2": "X",
+        "delivery3": "8"
+    }
+]
