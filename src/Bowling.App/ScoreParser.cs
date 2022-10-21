@@ -39,10 +39,10 @@ public class ScoreParser
 
     private int ScoreStrike(Frame frame)
     {
-        var frame2 = _frameStack.PopOrDefault().NotNull();
+        var frame2 = _frameStack.PopOrDefault().NotNull($"Unable to get frame following {frame.Id}");
         if (frame2.IsStrike)
         {
-            var frame3 = _frameStack.PopOrDefault().NotNull();
+            var frame3 = _frameStack.PopOrDefault().NotNull($"Unable to get frame following {frame2.Id}");
             int frame3Score = frame3.IsStrike
                 ?  frame3.GetFrameScore()
                 : frame3.Delivery1.ParseDelivery();
@@ -69,7 +69,7 @@ public class ScoreParser
 
     private int ScoreSpare(Frame frame)
     {
-        var frame2 = _frameStack.PopOrDefault().NotNull();
+        var frame2 = _frameStack.PopOrDefault().NotNull($"Unable to get frame following {frame.Id}");
         int frame2Score = frame2.IsStrike
             ? frame2.GetFrameScore()
             : frame2.Delivery1.ParseDelivery();
