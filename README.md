@@ -38,8 +38,6 @@ The application expects a JSON-formatted file with an array of Frame objects. Ea
 To build the application, navigate to the `src` directory and execute the `dotnet build` command.
 
 ```csharp
-cd src
-dotnet restore
 dotnet build
 ```
 
@@ -48,6 +46,5 @@ dotnet build
 This application contains a unit test file for the Frame model. To test, use the following commands:
 
 ```csharp
-cd src
 dotnet test
 ```
