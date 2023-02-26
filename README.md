@@ -25,6 +25,14 @@ The application expects a JSON-formatted file with an array of Frame objects. Ea
 
 > Note: Standard USBC nomenclature can be used, with the exception of split characters (e.g. `s8`). Additionally, a strike on a frame is noted by an "X" in `delivery2` with no additional deliveries - except for the 10th frame.
 
+### Sample Output
+
+```shell
+1        2       3       4       5       6       7       8       9       10
+  |X|      |X|     |X|   7 |2|   8 |/|   F |9|     |X|   7 |/|   9 |-|   X |X| |8|
+30       57      76      85      95      104     124     143     152     180
+```
+
 ## How to Build
 
 To build the application, navigate to the `src` directory and execute the `dotnet build` command.
