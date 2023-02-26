@@ -22,7 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Bowling.App\Bowling.App.csproj" />
+    <ProjectReference Include="..\..\src\Bowling.App\Bowling.App.csproj" />
   </ItemGroup>
 
 </Project>
